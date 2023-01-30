@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.mr{
+    margin-right: 2%;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb8{
+    padding: 8px;
+}
+.demo{
+    background-color: red;
+    min-height: 100px;
+}
+.header{
+    background-color: aqua;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+    
+}
+.header h1{
+    margin: 20px 20px;
+    font-size: 1.2vw;
+  
+
+}
+.menu{
+    background-color: black;
+    color: #ccc ;
+    border-radius: 5px;
+}
+.menu ul{
+    padding: 0px 10px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    transition: 0.7s;
+}
+
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: blue;
+    font-size: 0.8vw;
+
+}
+.boxleft{
+    float: left;
+    width: 74%;
+}
+.boxright{
+    float: right ;
+    width: 24%;
+}
+.footer{
+    background-color: aqua;
+    border: 1px solid blue;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+
+}
+.boxconten{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 250px;
+    padding: 20px;
+}
+.boxconten2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    min-height: 200px;
+    background-color: #eee;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px #ccc solid;
+
+}
+/* trai */
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    min-height: 300%;
+    
+}
+.boxsanpham{
+    float: left;
+    width: 32%;
+    min-height: 200px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.formtk{
+    line-height: 150%;
+    
+    
+}
+.formtk input[type="text"],
+.formtk input[type="password"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtk input[type="checkbox"]{
+    border-radius: 5px;
+}
+.checkbox{
+    display: inline;
+}
+.formtk input[type="submit"]{
+    background-color: white;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtk input[type="submit"]:hover{
+    background-color: #ccc;
+}
+.formtk li a{
+    color: blue;
+    text-decoration: none;
+}
+.formtk li a :hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.boxct2 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.boxct2 ul li{
+   padding: 10px 20px;
+   background-color: #eee;
+   border-bottom: 1px solid #ccc;
+}
+.boxct2 ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.boxct2 ul li:hover{
+    background-color:#333;
+}
+.seachbox2[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.anhsp img{
+    width: 15%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border: 1px #ccc solid;
+}
+.anhsp a{
+    color: #666;
+    text-decoration: none;
+}
+.anhsp a:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
